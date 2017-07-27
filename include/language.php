@@ -94,13 +94,7 @@ $language['SIGNATURE_OPTION_SCREEN'] = "No Filter";
 $language['SIGNATURE_NEED_NAME'] = "You must at least enter a valid character name."; 
 
 //index language 
-$language['INDEX_INTRO'] ="Welcome to the newest build of Character Browser. Many new features have been added to streamline the software to make customazation even easier than before. Languages have been modularized to better serve our growing Chinese community. Modifying the language.php file can now rapidly customize the tool in a way that used to take days. 
-                           <br> 
-                   <br> 
-                   In addition to languages, all of the HTML has been modularized using a system you may recognize from phpbb. System admins can now edit easy to understand templates to quickly get a custom feel for their install. 
-                   <br> 
-                   <br> 
-                   Various other navigational upgrades have been made, and security upgrades making it safer for the whole community. For more details check out the readme."; 
+$language['INDEX_INTRO'] ="Welcome to Project 2002 Magelo - Work in Progress - Report all bugs on the forums";
 $language['INDEX_VERSION'] = "Version"; 
 $language['INDEX_BY'] = "By"; 
 
@@ -371,63 +365,6 @@ $language['FLAG_PoP_Xegony'] = "You have defeated Xegony, the Queen of Air.";
 $language['FLAG_PoP_Coirnav'] = "You have defeated Coirnav, the Avatar of Water."; 
 $language['FLAG_PoP_Arbitor'] = "You have defeated the arbitor within Plane of Earth A."; 
 $language['FLAG_PoP_Rathe'] = "You have defeated the Rathe Council within Plane of Earth B"; 
-
-/************* GoD Flags for Progression ************* 
-   Updated by Sorvani 
-   April 15, 2011 
-   Complete  
-******************************************************/ 
-$language['FLAG_GoD_Sewer_1_1'] = "You have hailed Ansharu after defeating the Ancient Kayserops in the Purifying Plant!"; 
-$language['FLAG_GoD_Sewer_1_2'] = "You have hailed Scribe Gurru in Barindu after completing the Purifying Plant!"; 
-$language['FLAG_GoD_Sewer_2_1'] = "You have turned in the 4 remains to to Gzifa the Pure in the Crematory!"; 
-$language['FLAG_GoD_Sewer_2_2'] = "You have hailed Scribe Gurru in Barindu after completing the Crematory!"; 
-$language['FLAG_GoD_Sewer_3_1'] = "You have returned Alej's tools to him in the Lair of Trapped Ones!"; 
-$language['FLAG_GoD_Sewer_3_2'] = "You have hailed Scribe Gurru in Barindu after completing the Lair of Trapped Ones!"; 
-$language['FLAG_GoD_Sewer_4_1'] = "You have returned the map pieces to Utandi in the Pool of Sludge!"; 
-$language['FLAG_GoD_Sewer_4_2'] = "You have hailed Scribe Gurru in Barindu after completing the Pool of Sludge!"; 
-$language['FLAG_GoD_Vxed'] = "Vxed, The Crumbling Caverns"; 
-$language['FLAG_GoD_Tipt'] = "Tipt, Treacherous Crags"; 
-$language['FLAG_GoD_KT_1'] = "Kod'Taz, Broken Trial Grounds"; 
-$language['FLAG_GoD_KT_2'] = "You have completed the 4 sewer trials or defeated Smith Rondo!"; 
-$language['FLAG_GoD_KT_3'] = "You have hailed Stonespiritist Ekikoa in Vxed!"; 
-$language['FLAG_GoD_KT_4'] = "You have hailed Master Stonespiritist Okkanu in Tipt!"; 
-$language['FLAG_GoD_Ikky_R3'] = "(optional) Able to request the three raid trials"; 
-$language['FLAG_GoD_Ikky_2'] = "You have completed the trial at the Temple of Singular Might!"; 
-$language['FLAG_GoD_Ikky_3'] = "You have completed the trial at the Temple of Twin Struggles!"; 
-$language['FLAG_GoD_Ikky_4'] = "You have completed the trial at the Temple of the Tri-Fates!"; 
-$language['FLAG_GoD_Ikky_5'] = "You've returned four relics from the Martyrs Passage!";      
-$language['FLAG_GoD_Ikky_6'] = "You've recovered important glyphs from the Temple of the Damned!";              
-$language['FLAG_GoD_Ikky_7'] = "You've successfully translated the glyphs you found in the Temple of the Damned!"; 
-$language['FLAG_GoD_Ikky_8'] = "You've recovered the four flesh scraps from the small temple south of the summoners!"; 
-$language['FLAG_GoD_Ikky_9'] = "You've sewn the flesh scraps together to make the Sewn Flesh Parchment!"; 
-$language['FLAG_GoD_Ikky_10'] = "You've found the three clues from the three trial temples!"; 
-$language['FLAG_GoD_Ikky_11'] = "You've collected the Minor Relics of Power from the Pit of the Lost!"; 
-$language['FLAG_GoD_Ikky_12'] = "You've rescued the artifact from the Ageless Relic Protector in the Pit of the Lost!"; 
-$language['FLAG_GoD_Ikky_R4'] = "(optional) Able to request Ikkinz: Chambers of Destruction"; 
-$language['FLAG_GoD_Ikky_13'] = "You have completed the three raid trials!"; 
-$language['FLAG_GoD_Ikky_14'] = "You have crafted the Icon of the Altar!";  
-$language['FLAG_GoD_Qvic_1'] = "Qvic, Prayer Grounds of Calling"; 
-$language['FLAG_GoD_Qvic_2'] = "You have given the Sliver of the High Temple to Tublik Narwethar after defeating Vrex Barxt Qurat in Uqua."; 
-$language['FLAG_GoD_Txevu_1'] = "Txevu, Lair of the Elite"; 
-$language['FLAG_GoD_Txevu_2'] = "You have given the three pieces of the high temple to Brevik Kalaner."; 
-/* End GoD Flags */ 
-
-//OOW flags
-$language['FLAG_OOW_MPG'] = "Muramite Proving Grounds Group Trials"; 
-$language['FLAG_OOW_MPG_FEAR'] = "You have completed The Mastery of Fear trial."; 
-$language['FLAG_OOW_MPG_INGENUITY'] = "You have completed The Mastery of Ingenuity trial.";
-$language['FLAG_OOW_MPG_WEAPONRY'] = "You have completed The Mastery of Weaponry trial."; 
-$language['FLAG_OOW_MPG_SUBVERSION'] = "You have completed The Mastery of Subversion trial."; 
-$language['FLAG_OOW_MPG_EFFICIENCY'] = "You have completed The Mastery of Efficiency trial.";  
-$language['FLAG_OOW_MPG_DESTRUCTION'] = "You have completed The Mastery of Destruction trial."; 
-$language['FLAG_OOW_COA'] = "The Citadel of Anguish"; 
-$language['FLAG_OOW_COA_HATE'] = "You have completed The Mastery of Hate trial.";
-$language['FLAG_OOW_COA_ENDURANCE'] = "You have completed The Mastery of Endurance trial.";
-$language['FLAG_OOW_COA_FORESIGHT'] = "You have completed The Mastery of Foresight trial.";
-$language['FLAG_OOW_COA_SPECIALIZATION'] = "You have completed The Mastery of Specialization trial."; 
-$language['FLAG_OOW_COA_ADAPTATION'] = "You have completed The Mastery of Adaptation trial.";
-$language['FLAG_OOW_COA_CORRUPTION'] = "You have completed The Mastery of Corruption trial.";
-$language['FLAG_OOW_COA_TAROMANI'] = "You have turned the seven signets into Taromani."; 
 
 //skills language 
 $language['SKILLS_SKILLS'] = "Skills"; 

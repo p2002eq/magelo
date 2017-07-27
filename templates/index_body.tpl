@@ -6,8 +6,6 @@
   <div style='text-align:left;display:table-cell;font-family:arial;color:#000000;font-size:8pt;width:400px;'>
     <center>
     {L_VERSION}: {VERSION}
-    <br>
-    {L_BY}: Maudigan
     </center>
     <br>
     <br>
