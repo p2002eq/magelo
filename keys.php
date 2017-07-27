@@ -50,7 +50,7 @@ include_once("include/language.php");
 
 include_once("include/functions.php");
 
-
+include_once("include/db.php");
 
 //if character name isnt provided post error message and exit
 
