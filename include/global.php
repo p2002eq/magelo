@@ -386,37 +386,4 @@ $dbslots[4]="Head";
 $dbslots[2]="Ear"; 
 $dbslots[1]="Charm"; 
 
-//added all $augtypes 2/25/2014
-$augtypes = array(); 
-$augtypes[2147483647] = "All Types"; 
-$augtypes[536870912] = "Type 30"; 
-$augtypes[268435456] = "Type 29"; 
-$augtypes[134217728] = "Type 28"; 
-$augtypes[67108864] = "Type 27"; 
-$augtypes[33554432] = "Type 26"; 
-$augtypes[16777216] = "Type 25"; 
-$augtypes[8388608] = "Type 24"; 
-$augtypes[4194304] = "Type 23"; 
-$augtypes[2097152] = "Type 22"; 
-$augtypes[1048576] = "Type 21"; 
-$augtypes[524288] = "Type 20"; 
-$augtypes[262144] = "Type 19"; 
-$augtypes[131072] = "Type 18"; 
-$augtypes[65536] = "Type 17"; 
-$augtypes[32768] = "Type 16"; 
-$augtypes[16384] = "Type 15"; 
-$augtypes[8192] = "Type 14"; 
-$augtypes[4096] = "Type 13"; 
-$augtypes[2048] = "Type 12"; 
-$augtypes[1024] = "Type 11"; 
-$augtypes[512] = "Type 10"; 
-$augtypes[256] = "Type 9"; 
-$augtypes[128] = "Type 8"; 
-$augtypes[64] = "Type 7"; 
-$augtypes[32] = "Type 6"; 
-$augtypes[16] = "Type 5"; 
-$augtypes[8] = "Type 4"; 
-$augtypes[4] = "Type 3"; 
-$augtypes[2] = "Type 2"; 
-$augtypes[1] = "Type 1"; 
 ?>
