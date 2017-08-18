@@ -18,13 +18,9 @@
     <br>
 
     <font style='font-family:arial;font-size:7pt;text-decoration:none;font-weight;none;color:#FFFFFF;'>
-    <a style='font-family:arial;font-size:7pt;text-decoration:none;font-weight;none;color:#FFFFFF;' href='signaturebuilder.php'>{L_SIGBUILD}</a> &nbsp;|&nbsp; 
-    <a style='font-family:arial;font-size:7pt;text-decoration:none;font-weight;none;color:#FFFFFF;' href='charmove.php'>{L_CHARMOVE}</a> &nbsp;|&nbsp; 
-    <a style='font-family:arial;font-size:7pt;text-decoration:none;font-weight;none;color:#FFFFFF;' href='bazaar.php'>{L_BAZAAR}</a> &nbsp;|&nbsp; 
-    <a style='font-family:arial;font-size:7pt;text-decoration:none;font-weight;none;color:#FFFFFF;' href='index.php'>{L_HOME}</a> &nbsp;|&nbsp; 
-    <a style='font-family:arial;font-size:7pt;text-decoration:none;font-weight;none;color:#FFFFFF;' href='settings.php'>{L_SETTINGS}</a> &nbsp;|&nbsp; 
-    <a style='font-family:arial;font-size:7pt;text-decoration:none;font-weight;none;color:#FFFFFF;' href='http://mqemulator.net/forum2/viewforum.php?f=20'>{L_REPORT_ERRORS}</a> &nbsp;|&nbsp; 
-    <a style='font-family:arial;font-size:7pt;text-decoration:none;font-weight;none;color:#FFFFFF;' href='help.php'>{L_HELP}</a>
+    <a style='font-family:arial;font-size:7pt;text-decoration:none;font-weight;none;color:#FFFFFF;' href='index.php'>{L_HOME}</a> &nbsp;|&nbsp;
+    <a style='font-family:arial;font-size:7pt;text-decoration:none;font-weight;none;color:#FFFFFF;' href='bazaar.php'>{L_BAZAAR}</a> &nbsp;|&nbsp;
+    <a style='font-family:arial;font-size:7pt;text-decoration:none;font-weight;none;color:#FFFFFF;' href='settings.php'>{L_SETTINGS}</a> &nbsp;|&nbsp;
   </div>
 </div></div>
 <div class='body'>
