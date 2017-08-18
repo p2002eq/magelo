@@ -53,18 +53,6 @@ function display(type, id, prefix) {
         </div> 
         <div class='InventoryInner'>
 
-          <div class='InventoryStats2'>
-            <table class='StatTable'>
-              <tr>
-                <td nowrap>
-                    {L_REGEN}<br>{L_FT}<br>{L_DS}<br>{L_HASTE}
-                </td>
-                <td>
-                    {REGEN}<br>{FT}<br>{DS}<br>{HASTE}%
-                </td>
-              </tr>
-            </table>
-          </div>
 
           <div class='InventoryStats'> 
             <table class='StatTable'> 
