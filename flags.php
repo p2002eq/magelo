@@ -208,6 +208,36 @@ $template->assign_both_block_vars( "mainhead.main" , array( 'ID' => 11, 'FLAG' =
 if (getflag(1, "pop_time_maelin") && getflag(1, "pop_fire_fennin_projection") && getflag(1, "pop_wind_xegony_projection") && getflag(1, "pop_water_coirnav_projection") && getflag(1, "pop_eartha_arbitor_projection") && getflag(1, "pop_earthb_rathe")) { $HasFlag = 1; } else { $HasFlag = 0; } 
 $template->assign_both_block_vars( "mainhead.main" , array( 'ID' => 12, 'FLAG' => $HasFlag, 'TEXT' => $language['FLAG_PoP_PoTime']) ); 
 
+
+//GoD
+$template->assign_both_block_vars( "mainhead" , array( 'TEXT' => $language['FLAG_GoD']) ); 
+$template->assign_both_block_vars( "mainhead.main" , array( 'ID' => 13, 'FLAG' => getflag(1,"god_vxed_access"), 'TEXT' => $language['FLAG_GoD_Vxed']) ); 
+$template->assign_both_block_vars( "mainhead.main" , array( 'ID' => 14, 'FLAG' => getflag(1,"god_tipt_access"), 'TEXT' => $language['FLAG_GoD_Tipt']) ); 
+
+if (getzoneflag(293) && getflag(1, "god_vxed_access") && getflag(1, "god_tipt_access") && getflag(1, "god_kodtaz_access")) { $HasFlag = 1; } else { $HasFlag = 0; } 
+$template->assign_both_block_vars( "mainhead.main" , array( 'ID' => 15, 'FLAG' => $HasFlag, 'TEXT' => $language['FLAG_GoD_KT_1']) ); 
+$template->assign_both_block_vars( "mainhead.main" , array( 'ID' => 16, 'FLAG' => getflag(12,"ikky"), 'TEXT' => $language['FLAG_GoD_Ikky_R3']) ); 
+$template->assign_both_block_vars( "mainhead.main" , array( 'ID' => 17, 'FLAG' => getflag(14,"ikky"), 'TEXT' => $language['FLAG_GoD_Ikky_R4']) ); 
+
+if (getzoneflag(295) && getflag(1, "god_qvic_access")) { $HasFlag = 1; } else { $HasFlag = 0; } 
+$template->assign_both_block_vars( "mainhead.main" , array( 'ID' => 18, 'FLAG' => $HasFlag, 'TEXT' => $language['FLAG_GoD_Qvic_1']) ); 
+
+if (getzoneflag(297) && getflag(1, "god_txevu_access")) { $HasFlag = 1; } else { $HasFlag = 0; } 
+$template->assign_both_block_vars( "mainhead.main" , array( 'ID' => 19, 'FLAG' => $HasFlag, 'TEXT' => $language['FLAG_GoD_Txevu_1']) ); 
+
+
+//OOW
+$template->assign_both_block_vars( "mainhead" , array( 'TEXT' => $language['FLAG_OOW']) ); 
+
+if (getflag(63, "mpg_group_trials")) { $HasFlag = 1; } else { $HasFlag = 0; } 
+$template->assign_both_block_vars( "mainhead.main" , array( 'ID' => 20, 'FLAG' => $HasFlag, 'TEXT' => $language['FLAG_OOW_MPG']) ); 
+
+//TODO get criteria for MPG, zone flags?
+if (getflag(63, "mpg_raid_trials") && getflag(1, "oow_rss_taromani_insignias")) { $HasFlag = 1; } else { $HasFlag = 0; } 
+$template->assign_both_block_vars( "mainhead.main" , array( 'ID' => 21, 'FLAG' => $HasFlag, 'TEXT' => $language['FLAG_OOW_COA']) ); 
+
+
+
 /*********************************************
            SECONDARY/SUB MENUS POP
 *********************************************/
@@ -328,6 +358,87 @@ $template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getflag(1, "p
 $template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getflag(1, "pop_earthb_rathe"), 'TEXT' => $language['FLAG_PoP_Rathe']) ); 
 
 
+
+/*********************************************
+           SECONDARY/SUB MENUS GoD
+*********************************************/
+//Vxed 
+$template->assign_both_block_vars( "head" , array( 'ID' => 13, 'NAME' => $language['FLAG_GoD_Vxed']) ); 
+$template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getflag(1, "god_vxed_access"), 'TEXT' => $language['FLAG_GoD_KT_2']) ); 
+//Sewer 1 
+if (getflag(1, "temp_sewers") || getflag(2, "sewers")) $template->assign_both_block_vars( "head.flags" , array( 'FLAG' => "1", 'TEXT' => $language['FLAG_GoD_Sewer_1_1']) ); 
+else $template->assign_both_block_vars( "head.flags" , array( 'FLAG' => "0", 'TEXT' => $language['FLAG_GoD_Sewer_1_1']) ); 
+$template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getflag(2, "sewers"), 'TEXT' => $language['FLAG_GoD_Sewer_1_2']) ); 
+//Sewer 2 
+if (getflag(2, "temp_sewers") || getflag(3, "sewers")) $template->assign_both_block_vars( "head.flags" , array( 'FLAG' => "1", 'TEXT' => $language['FLAG_GoD_Sewer_2_1']) ); 
+else $template->assign_both_block_vars( "head.flags" , array( 'FLAG' => "0", 'TEXT' => $language['FLAG_GoD_Sewer_2_1']) ); 
+$template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getflag(3, "sewers"), 'TEXT' => $language['FLAG_GoD_Sewer_2_2']) ); 
+//sewer 3 
+if (getflag(3, "temp_sewers") || getflag(4, "sewers")) $template->assign_both_block_vars( "head.flags" , array( 'FLAG' => "1", 'TEXT' => $language['FLAG_GoD_Sewer_3_1']) ); 
+else $template->assign_both_block_vars( "head.flags" , array( 'FLAG' => "0", 'TEXT' => $language['FLAG_GoD_Sewer_3_1']) ); 
+$template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getflag(4, "sewers"), 'TEXT' => $language['FLAG_GoD_Sewer_3_2']) ); 
+//sewer 4 
+if (getflag(4, "temp_sewers") || getflag(5, "sewers")) $template->assign_both_block_vars( "head.flags" , array( 'FLAG' => "1", 'TEXT' => $language['FLAG_GoD_Sewer_4_1']) ); 
+else $template->assign_both_block_vars( "head.flags" , array( 'FLAG' => "0", 'TEXT' => $language['FLAG_GoD_Sewer_4_1']) ); 
+if (getflag(1, "god_vxed_access") && getflag(5, "sewers")) $template->assign_both_block_vars( "head.flags" , array( 'FLAG' => "1", 'TEXT' => $language['FLAG_GoD_Sewer_4_2']) ); 
+else $template->assign_both_block_vars( "head.flags" , array( 'FLAG' => "0", 'TEXT' => $language['FLAG_GoD_Sewer_4_2']) ); 
+//Tipt 
+$template->assign_both_block_vars( "head" , array( 'ID' => 14, 'NAME' => $language['FLAG_GoD_Tipt']) ); 
+$template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getflag(1, "god_tipt_access"), 'TEXT' => $language['FLAG_GoD_KT_3']) ); 
+//KT
+$template->assign_both_block_vars( "head" , array( 'ID' => 15, 'NAME' => $language['FLAG_GoD_KT_1']) ); 
+$template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getflag(1, "god_vxed_access"), 'TEXT' => $language['FLAG_GoD_KT_2']) ); 
+$template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getflag(1, "god_tipt_access"), 'TEXT' => $language['FLAG_GoD_KT_3']) ); 
+$template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getflag(1, "god_kodtaz_access"), 'TEXT' => $language['FLAG_GoD_KT_4']) ); 
+//Request Ikkinz Raids 1-3 
+$template->assign_both_block_vars( "head" , array( 'ID' => 16, 'NAME' => $language['FLAG_GoD_Ikky_R3']) ); 
+$template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getflag(2, "ikky"), 'TEXT' => $language['FLAG_GoD_Ikky_2']) ); 
+$template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getflag(3, "ikky"), 'TEXT' => $language['FLAG_GoD_Ikky_3']) ); 
+$template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getflag(4, "ikky"), 'TEXT' => $language['FLAG_GoD_Ikky_4']) ); 
+$template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getflag(5, "ikky"), 'TEXT' => $language['FLAG_GoD_Ikky_5']) ); 
+$template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getflag(6, "ikky"), 'TEXT' => $language['FLAG_GoD_Ikky_6']) ); 
+$template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getflag(7, "ikky"), 'TEXT' => $language['FLAG_GoD_Ikky_7']) ); 
+$template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getflag(8, "ikky"), 'TEXT' => $language['FLAG_GoD_Ikky_8']) ); 
+$template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getflag(9, "ikky"), 'TEXT' => $language['FLAG_GoD_Ikky_9']) ); 
+$template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getflag(10, "ikky"), 'TEXT' => $language['FLAG_GoD_Ikky_10']) ); 
+$template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getflag(11, "ikky"), 'TEXT' => $language['FLAG_GoD_Ikky_11']) ); 
+$template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getflag(12, "ikky"), 'TEXT' => $language['FLAG_GoD_Ikky_12']) ); 
+//request Ikkinz Raid 4 
+$template->assign_both_block_vars( "head" , array( 'ID' => 17, 'NAME' => $language['FLAG_GoD_Ikky_R4']) ); 
+$template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getflag(13, "ikky"), 'TEXT' => $language['FLAG_GoD_Ikky_13']) ); 
+$template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getflag(14, "ikky"), 'TEXT' => $language['FLAG_GoD_Ikky_14']) ); 
+//Qvic 
+$template->assign_both_block_vars( "head" , array( 'ID' => 18, 'NAME' => $language['FLAG_GoD_Qvic_1']) ); 
+$template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getflag(1, "god_qvic_access"), 'TEXT' => $language['FLAG_GoD_Qvic_2']) ); 
+//Txevu 
+$template->assign_both_block_vars( "head" , array( 'ID' => 19, 'NAME' => $language['FLAG_GoD_Txevu_1']) ); 
+$template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getflag(1, "god_txevu_access"), 'TEXT' => $language['FLAG_GoD_Txevu_2']) ); 
+
+
+
+/*********************************************
+           SECONDARY/SUB MENUS OOW
+*********************************************/ 
+//Muramite Proving Grounds
+$template->assign_both_block_vars( "head" , array( 'ID' => 20, 'NAME' => $language['FLAG_OOW_MPG']) ); 
+$template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getbitflag(1, "mpg_group_trials"), 'TEXT' => $language['FLAG_OOW_MPG_FEAR']) );  
+$template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getbitflag(2, "mpg_group_trials"), 'TEXT' => $language['FLAG_OOW_MPG_INGENUITY']) ); 
+$template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getbitflag(4, "mpg_group_trials"), 'TEXT' => $language['FLAG_OOW_MPG_WEAPONRY']) ); 
+$template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getbitflag(8, "mpg_group_trials"), 'TEXT' => $language['FLAG_OOW_MPG_SUBVERSION']) ); 
+$template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getbitflag(16, "mpg_group_trials"), 'TEXT' => $language['FLAG_OOW_MPG_EFFICIENCY']) );
+$template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getbitflag(32, "mpg_group_trials"), 'TEXT' => $language['FLAG_OOW_MPG_DESTRUCTION']) );
+//Citadel of Anguish
+$template->assign_both_block_vars( "head" , array( 'ID' => 21, 'NAME' => $language['FLAG_OOW_COA']) ); 
+$template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getbitflag(1, "mpg_raid_trials"), 'TEXT' => $language['FLAG_OOW_COA_HATE']) ); 
+$template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getbitflag(2, "mpg_raid_trials"), 'TEXT' => $language['FLAG_OOW_COA_ENDURANCE']) ); 
+$template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getbitflag(4, "mpg_raid_trials"), 'TEXT' => $language['FLAG_OOW_COA_FORESIGHT']) ); 
+$template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getbitflag(8, "mpg_raid_trials"), 'TEXT' => $language['FLAG_OOW_COA_SPECIALIZATION']) ); 
+$template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getbitflag(16, "mpg_raid_trials"), 'TEXT' => $language['FLAG_OOW_COA_ADAPTATION']) ); 
+$template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getbitflag(32, "mpg_raid_trials"), 'TEXT' => $language['FLAG_OOW_COA_CORRUPTION']) ); 
+$template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getbitflag(1, "oow_rss_taromani_insignias"), 'TEXT' => $language['FLAG_OOW_COA_TAROMANI']) ); 
+
+
+ 
 /*********************************************
            OUTPUT BODY AND FOOTER
 *********************************************/

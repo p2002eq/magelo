@@ -17,8 +17,11 @@ function display(type, id, prefix) {
   <div class='FreeButton' onclick="window.location='aas.php?char={FIRST_NAME}';" style="margin:3px">{L_AAS}</div> 
   <div class='FreeButton' onclick="window.location='keys.php?char={FIRST_NAME}';" style="margin:3px">{L_KEYS}</div>
   <div class='FreeButton' onclick="window.location='flags.php?char={FIRST_NAME}';" style="margin:3px">{L_FLAGS}</div> 
-  <div class='FreeButton' onclick="window.location='skills.php?char={FIRST_NAME}';" style="margin:3px">{L_SKILLS}</div>
-  <div class='FreeButton' onclick="window.location='factions.php?char={FIRST_NAME}';" style="margin:3px">{L_FACTION}</div>
+  <div class='FreeButton' onclick="window.location='skills.php?char={FIRST_NAME}';" style="margin:3px">{L_SKILLS}</div> 
+  <div class='FreeButton' onclick="window.location='corpse.php?char={FIRST_NAME}';" style="margin:3px">{L_CORPSE}</div> 
+  <div class='FreeButton' onclick="window.location='factions.php?char={FIRST_NAME}';" style="margin:3px">{L_FACTION}</div> 
+  <div class='FreeButton' onclick="window.location='charmove.php?char={FIRST_NAME}';" style="margin:3px">{L_CHARMOVE}</div> 
+  <div class='FreeButton' onclick="window.external.AddFavorite(location.href, document.title);" style="margin:3px">{L_BOOKMARK}</div> 
 </div> 
 </div> 
 <center> 
