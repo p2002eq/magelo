@@ -36,12 +36,11 @@ $template->assign_vars(array(
   'TITLE' => $mytitle,
   'SUBTITLE' => $d_title,
   'VERSION' => $version,
-  'ADVERTISEMENT' => $adscript,
   'L_GUILD' => $language['HEADER_GUILD'],
   'L_NAME' => $language ['HEADER_NAME'],
   'L_SETTINGS' => $language['HEADER_SETTINGS'],
-  'L_BAZAAR' => $language['HEADER_BAZAAR'],
-  'L_HOME' => $language['HEADER_HOME'])
+  'L_HOME' => $language['HEADER_HOME'],
+  'L_BAZAAR' => $language['HEADER_BAZAAR'])
 );
 
 $template->pparse('header');

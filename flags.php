@@ -208,6 +208,7 @@ $template->assign_both_block_vars( "mainhead.main" , array( 'ID' => 11, 'FLAG' =
 if (getflag(1, "pop_time_maelin") && getflag(1, "pop_fire_fennin_projection") && getflag(1, "pop_wind_xegony_projection") && getflag(1, "pop_water_coirnav_projection") && getflag(1, "pop_eartha_arbitor_projection") && getflag(1, "pop_earthb_rathe")) { $HasFlag = 1; } else { $HasFlag = 0; } 
 $template->assign_both_block_vars( "mainhead.main" , array( 'ID' => 12, 'FLAG' => $HasFlag, 'TEXT' => $language['FLAG_PoP_PoTime']) ); 
 
+
 /*********************************************
            SECONDARY/SUB MENUS POP
 *********************************************/
@@ -327,7 +328,7 @@ $template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getflag(1, "p
 $template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getflag(1, "pop_eartha_arbitor_projection"), 'TEXT' => $language['FLAG_PoP_Arbitor']) ); 
 $template->assign_both_block_vars( "head.flags" , array( 'FLAG' => getflag(1, "pop_earthb_rathe"), 'TEXT' => $language['FLAG_PoP_Rathe']) ); 
 
-
+ 
 /*********************************************
            OUTPUT BODY AND FOOTER
 *********************************************/

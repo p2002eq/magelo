@@ -121,7 +121,8 @@ $aatabs = array();
 $aatabs[1] = $language['AAS_TAB_1'];
 $aatabs[2] = $language['AAS_TAB_2'];
 $aatabs[3] = $language['AAS_TAB_3'];
-$aatabs[4] = $language['AAS_TAB_4']; 
+//$aatabs[4] = $language['AAS_TAB_4'];
+//$aatabs[5] = $language['AAS_TAB_5'];
 
 //GET THIS CHARS SPENT AA
 $classbits = array(0,2,4,8,16,32,64,128,256,512,1024,2048,4096,8192,16384,32768,1);
@@ -153,7 +154,7 @@ $tpl = <<<TPL
 SELECT first_rank_id, name, type 
 FROM aa_ability  
 WHERE classes & %s 
-  AND enabled = 1 
+  AND enabled = 1 AND ID != 0
 ORDER BY type, name 
 TPL;
 $query = sprintf($tpl, $classbit);

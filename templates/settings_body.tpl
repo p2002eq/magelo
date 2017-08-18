@@ -22,7 +22,6 @@
 	  <tr onMouseOver="this.style.background = '#7b714a' onMouseOut =this.style.background = 'none' "><td>{L_RESULTS}:</td><td>{S_RESULTS}</td></tr>
 	  <tr onMouseOver="this.style.background = '#7b714a' onMouseOut =this.style.background = 'none' "><td>{L_HIGHLIGHT_GM}:</td><td>{S_HIGHLIGHT_GM}</td></tr>
 	  <tr onMouseOver="this.style.background = '#7b714a' onMouseOut =this.style.background = 'none' "><td>{L_BAZAAR}:</td><td>{S_BAZAAR}</td></tr>
-	  <tr onMouseOver="this.style.background = '#7b714a' onMouseOut =this.style.background = 'none' "><td>{L_CHARMOVE}:</td><td>{S_CHARMOVE}</td></tr>
 	</table>
         <br><br>
 	<div class='FreeButton' onclick="history.go( -1 );return true;">{L_BACK}</div>

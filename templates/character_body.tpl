@@ -51,20 +51,8 @@ function display(type, id, prefix) {
           <div class='IventoryTitleMid'>{L_HEADER_INVENTORY}</div> 
           <div class='IventoryTitleRight'></div> 
         </div> 
-        <div class='InventoryInner'> 
-        
-          <div class='InventoryStats2'> 
-            <table class='StatTable'> 
-              <tr> 
-                <td nowrap> 
-                  {L_REGEN}<br>{L_FT}<br>{L_DS}<br>{L_HASTE} 
-                </td> 
-                <td> 
-                  {REGEN}<br>{FT}<br>{DS}<br>{HASTE}% 
-                </td> 
-              </tr> 
-            </table> 
-          </div> 
+        <div class='InventoryInner'>
+
 
           <div class='InventoryStats'> 
             <table class='StatTable'> 
@@ -76,25 +64,25 @@ function display(type, id, prefix) {
               <tr><td colspan='2' style='height: 3px'></td></tr> 
               <tr> 
                 <td>{L_HP}<br>{L_MANA}<br>{L_ENDR}<br>{L_AC}<br>{L_ATK}</td> 
-                <td width='100%'>{HP}<br>{MANA}<br>{ENDR}<br>{AC}<br>{ATK}</td> 
+                <td width='100%'>{HP}<br>{MANA}<br>{ENDR}<br>{AC}<br>{ATK}</td>
               </tr> 
               <tr><td class='Divider' colspan='2'></td></tr> 
               <tr> 
                 <td>{L_STR}<br>{L_STA}<br>{L_AGI}<br>{L_DEX}</td> 
                 <!-- <td width='100%'>{STR}<br>{STA}<br>{AGI}<br>{DEX}</td> -->
-                <td width='100%'><font color='#00FF00'>{STR} <font color='Gold'>+{HSTR}</font><br>{STA} <font color='Gold'>+{HSTA}</font><br>{AGI} <font color='Gold'>+{HAGI}</font><br>{DEX} <font color='Gold'>+{HDEX}</font></font></td>
+                <td width='100%'><font color='#00FF00'>{STR} </font><br>{STA} </font><br>{AGI} </font><br>{DEX} </font></font></td>
               </tr> 
               <tr><td class='Divider' colspan='2'></td></tr> 
               <tr> 
                 <td>{L_WIS}<br>{L_INT}<br>{L_CHA}</td> 
                 <!-- <td width='100%'>{WIS}<br>{INT}<br>{CHA}</td> -->
-                <td width='100%'><font color='#00FF00'>{WIS} <font color='Gold'>+{HWIS}</font><br>{INT} <font color='Gold'>+{HINT}</font><br>{CHA} <font color='Gold'>+{HCHA}</font></font></td> 
+                <td width='100%'><font color='#00FF00'>{WIS} </font><br>{INT} </font><br>{CHA} </font></font></td>
               </tr> 
               <tr><td class='Divider' colspan='2'></td></tr> 
               <tr> 
                 <td>{L_POISON}<br>{L_MAGIC}<br>{L_DISEASE}<br>{L_FIRE}<br>{L_COLD}</td> 
                 <!-- <td>{POISON}<br>{MAGIC}<br>{DISEASE}<br>{FIRE}<br>{COLD}</td> -->
-                <td><font color='#00FF00'>{POISON} <font color='Gold'>+{HPOISON}</font><br>{MAGIC} <font color='Gold'>+{HMAGIC}</font><br>{DISEASE} <font color='Gold'>+{HDISEASE}</font><br>{FIRE} <font color='Gold'>+{HFIRE}</font><br>{COLD} <font color='Gold'>+{HCOLD}</font></font></td> 
+                <td><font color='#00FF00'>{POISON} </font><br>{MAGIC} </font><br>{DISEASE} </font><br>{FIRE} </font><br>{COLD} </font></font></td>
               </tr> 
               <tr><td class='Divider' colspan='2'></td></tr> 
               <tr> 
@@ -104,12 +92,7 @@ function display(type, id, prefix) {
             </table> 
           </div> 
 
-          <div class='InventoryMonogram'><img src='images/monograms/{CLASS_NUM}.gif'></div> 
-
-          <div class='Coin' style='top: 116px;left: 317px;'><table class='StatTable'><tr><td align='left'><img src='images/pp.gif'></td><td align='center' width='100%'>{PP}</td></tr></table></div> 
-          <div class='Coin' style='top: 144px;left: 317px;'><table class='StatTable'><tr><td align='left'><img src='images/gp.gif'></td><td align='center' width='100%'>{GP}</td></tr></table></div> 
-          <div class='Coin' style='top: 172px;left: 317px;'><table class='StatTable'><tr><td align='left'><img src='images/sp.gif'></td><td align='center' width='100%'>{SP}</td></tr></table></div> 
-          <div class='Coin' style='top: 200px;left: 317px;'><table class='StatTable'><tr><td align='left'><img src='images/cp.gif'></td><td align='center' width='100%'>{CP}</td></tr></table></div> 
+          <div class='InventoryMonogram'><img src='images/monograms/{CLASS_NUM}.gif'></div>
 
           <div class='Slot slotloc0 slotimage0'></div> 
           <div class='Slot slotloc1 slotimage1'></div> 
@@ -132,15 +115,7 @@ function display(type, id, prefix) {
           <div class='Slot slotloc18 slotimage18'></div> 
           <div class='Slot slotloc19 slotimage19'></div> 
           <div class='Slot slotloc20 slotimage20'></div> 
-          <div class='Slot slotloc21 slotimage21'></div> 
-          <div class='Slot slotloc22 slotimage'></div> 
-          <div class='Slot slotloc23 slotimage'></div> 
-          <div class='Slot slotloc24 slotimage'></div> 
-          <div class='Slot slotloc25 slotimage'></div> 
-          <div class='Slot slotloc26 slotimage'></div> 
-          <div class='Slot slotloc27 slotimage'></div> 
-          <div class='Slot slotloc28 slotimage'></div> 
-          <div class='Slot slotloc29 slotimage'></div> 
+          <div class='Slot slotloc21 slotimage21'></div>
           <div class='Slot slotloc9999 slotimage9999'></div> 
 
 
@@ -149,51 +124,7 @@ function display(type, id, prefix) {
           <!-- END invitem --> 
         </div> 
       </div> 
-    </td> 
-    <td width='300px' align='left'> 
-      <div class='BankOuter'> 
-        <div class='BankTitle'> 
-          <div class='BankTitleLeft'></div> 
-          <div class='BankTitleMid'>{L_HEADER_BANK}</div> 
-          <div class='BankTitleRight'></div> 
-        </div> 
-        <div class='Slot slotloc2000 slotimage'></div> 
-        <div class='Slot slotloc2001 slotimage'></div> 
-        <div class='Slot slotloc2002 slotimage'></div> 
-        <div class='Slot slotloc2003 slotimage'></div> 
-        <div class='Slot slotloc2004 slotimage'></div> 
-        <div class='Slot slotloc2005 slotimage'></div> 
-        <div class='Slot slotloc2006 slotimage'></div> 
-        <div class='Slot slotloc2007 slotimage'></div> 
-        <div class='Slot slotloc2008 slotimage'></div> 
-        <div class='Slot slotloc2009 slotimage'></div> 
-        <div class='Slot slotloc2010 slotimage'></div> 
-        <div class='Slot slotloc2011 slotimage'></div> 
-        <div class='Slot slotloc2012 slotimage'></div> 
-        <div class='Slot slotloc2013 slotimage'></div> 
-        <div class='Slot slotloc2014 slotimage'></div> 
-        <div class='Slot slotloc2015 slotimage'></div> 
-        <div class='Slot slotloc2016 slotimage'></div> 
-        <div class='Slot slotloc2017 slotimage'></div> 
-        <div class='Slot slotloc2018 slotimage'></div> 
-        <div class='Slot slotloc2019 slotimage'></div> 
-        <div class='Slot slotloc2020 slotimage'></div> 
-        <div class='Slot slotloc2021 slotimage'></div> 
-        <div class='Slot slotloc2022 slotimage'></div> 
-        <div class='Slot slotloc2023 slotimage'></div> 
-
-        <!-- BEGIN bankitem --> 
-        <div onclick="display(0, {bankitem.SLOT}, 'slot'); if ({bankitem.ISBAG}) display(0, {bankitem.SLOT}, 'bag');" class='Slot slotloc{bankitem.SLOT}' style='background-image: url(images/items/item_{bankitem.ICON}.png);'></div> 
-        <!-- END bankitem --> 
-        
-
-        <div class='Coin' style='top: 200px;left: 6px;'><table class='StatTable'><tr><td align='left'><img src='images/pp.gif'></td><td align='center' width='100%'>{BPP}</td></tr></table></div> 
-        <div class='Coin' style='top: 228px;left: 6px;'><table class='StatTable'><tr><td align='left'><img src='images/gp.gif'></td><td align='center' width='100%'>{BGP}</td></tr></table></div> 
-        <div class='Coin' style='top: 256px;left: 6px;'><table class='StatTable'><tr><td align='left'><img src='images/sp.gif'></td><td align='center' width='100%'>{BSP}</td></tr></table></div> 
-        <div class='Coin' style='top: 284px;left: 6px;'><table class='StatTable'><tr><td align='left'><img src='images/cp.gif'></td><td align='center' width='100%'>{BCP}</td></tr></table></div> 
-
-      </div> 
-    </td> 
+    </td>
   </tr> 
   <tr> 
     <td colspan='3' align='center'> 
