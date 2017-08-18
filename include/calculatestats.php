@@ -498,7 +498,7 @@ function CRbyRace($race) {
 }
 
 
-/* replaced by new sod hp/mana/end calculations
+// replaced by new sod hp/mana/end calculations
 //function copied/converted from EQEMU sourcecode may 2, 2009
 function GetClassLevelFactor($mlevel,$class) {
 	$multiplier = 0;
@@ -635,8 +635,9 @@ function GetMaxHP($mlevel,$class,$sta,$ihp)
 
 	$base_hp += $ihp;
 	return floor($base_hp);
-}*/
+}
 
+/*
 //function copied/converted from EQEMU sourcecode oct 26, 2010 
 function GetMaxHP($mlevel,$class,$sta,$ihp) 
 { 
@@ -673,6 +674,7 @@ function GetMaxHP($mlevel,$class,$sta,$ihp)
         $base_hp += $ihp; 
         return floor($base_hp); 
 } 
+*/
 
 //function copied/converted from EQEMU sourcecode may 2, 2009
 function GetCasterClass($class){
@@ -719,7 +721,7 @@ function GetCasterClass($class){
 	}
 }
 
-/* replaced by new sod hp/mana/end calculations
+// replaced by new sod hp/mana/end calculations
 //function copied/converted from EQEMU sourcecode may 2, 2009, was  named CalcMaxMana();
 function GetMaxMana($level,$class,$int,$wis,$imana)
 {
@@ -769,8 +771,9 @@ function GetMaxMana($level,$class,$int,$wis,$imana)
 	}
 
 	return floor($max_mana);
-}*/
+}
 
+/*
 //function copied/converted from EQEMU sourcecode oct 26, 2010 
 function GetMaxMana($level,$class,$int,$wis,$imana) 
 { 
@@ -845,9 +848,10 @@ function GetMaxMana($level,$class,$int,$wis,$imana)
         } 
 
         return floor($max_mana); 
-} 
+}
+*/
 
-/* replaced by new sod hp/mana/end calculations
+// replaced by new sod hp/mana/end calculations
 function GetMaxEndurance($STR,$STA,$DEX,$AGI,$level,$iendurance)
 {
 	$Stats = $STR + $STA + $DEX + $AGI;
@@ -882,8 +886,9 @@ function GetMaxEndurance($STR,$STA,$DEX,$AGI,$level,$iendurance)
 	
 	$max_end += $iendurance;
 	return floor($max_end);
-}*/
+}
 
+/*
 //function copied/converted from EQEMU sourcecode oct 26, 2010 
 function GetMaxEndurance($STR,$STA,$DEX,$AGI,$level,$iendurance) 
 { 
@@ -919,6 +924,6 @@ function GetMaxEndurance($STR,$STA,$DEX,$AGI,$level,$iendurance)
         
         $max_end += $iendurance; 
         return floor($max_end); 
-} 
+} */
 
 ?>
