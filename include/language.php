@@ -94,13 +94,7 @@ $language['SIGNATURE_OPTION_SCREEN'] = "No Filter";
 $language['SIGNATURE_NEED_NAME'] = "You must at least enter a valid character name."; 
 
 //index language 
-$language['INDEX_INTRO'] ="Welcome to the newest build of Character Browser. Many new features have been added to streamline the software to make customazation even easier than before. Languages have been modularized to better serve our growing Chinese community. Modifying the language.php file can now rapidly customize the tool in a way that used to take days. 
-                           <br> 
-                   <br> 
-                   In addition to languages, all of the HTML has been modularized using a system you may recognize from phpbb. System admins can now edit easy to understand templates to quickly get a custom feel for their install. 
-                   <br> 
-                   <br> 
-                   Various other navigational upgrades have been made, and security upgrades making it safer for the whole community. For more details check out the readme."; 
+$language['INDEX_INTRO'] ="Welcome to Project 2002 Magelo. This tool is in Beta, please report any issue to the forums";
 $language['INDEX_VERSION'] = "Version"; 
 $language['INDEX_BY'] = "By"; 
 
