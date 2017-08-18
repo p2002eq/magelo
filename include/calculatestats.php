@@ -458,11 +458,11 @@ function GetMaxAC($agility, $level, $defense, $class, $iac, $race) {
 }
 
 
-$PRbyClass=array(0,0,0,0,4,0,0,0,8,0,0,0,0,0,0,0);
+$PRbyClass=array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
 $MRbyClass=array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
-$DRbyClass=array(0,0,8,0,4,0,0,0,0,0,0,0,0,0,4,0);
-$FRbyClass=array(0,0,0,4,0,0,8,0,0,0,0,0,0,0,0,0);
-$CRbyClass=array(0,0,0,4,0,0,0,0,0,0,0,0,0,0,4,0); 
+$DRbyClass=array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
+$FRbyClass=array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
+$CRbyClass=array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
 function PRbyRace($race) {
        if($race == 8)    return 20; 
   else if($race == 330)  return 30; 
