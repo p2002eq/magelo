@@ -91,12 +91,7 @@ function display(type, id, prefix) {
             </table> 
           </div> 
 
-          <div class='InventoryMonogram'><img src='images/monograms/{CLASS_NUM}.gif'></div> 
-
-          <div class='Coin' style='top: 116px;left: 317px;'><table class='StatTable'><tr><td align='left'><img src='images/pp.gif'></td><td align='center' width='100%'>{PP}</td></tr></table></div> 
-          <div class='Coin' style='top: 144px;left: 317px;'><table class='StatTable'><tr><td align='left'><img src='images/gp.gif'></td><td align='center' width='100%'>{GP}</td></tr></table></div> 
-          <div class='Coin' style='top: 172px;left: 317px;'><table class='StatTable'><tr><td align='left'><img src='images/sp.gif'></td><td align='center' width='100%'>{SP}</td></tr></table></div> 
-          <div class='Coin' style='top: 200px;left: 317px;'><table class='StatTable'><tr><td align='left'><img src='images/cp.gif'></td><td align='center' width='100%'>{CP}</td></tr></table></div> 
+          <div class='InventoryMonogram'><img src='images/monograms/{CLASS_NUM}.gif'></div>
 
           <div class='Slot slotloc0 slotimage0'></div> 
           <div class='Slot slotloc1 slotimage1'></div> 
@@ -119,15 +114,7 @@ function display(type, id, prefix) {
           <div class='Slot slotloc18 slotimage18'></div> 
           <div class='Slot slotloc19 slotimage19'></div> 
           <div class='Slot slotloc20 slotimage20'></div> 
-          <div class='Slot slotloc21 slotimage21'></div> 
-          <div class='Slot slotloc22 slotimage'></div> 
-          <div class='Slot slotloc23 slotimage'></div> 
-          <div class='Slot slotloc24 slotimage'></div> 
-          <div class='Slot slotloc25 slotimage'></div> 
-          <div class='Slot slotloc26 slotimage'></div> 
-          <div class='Slot slotloc27 slotimage'></div> 
-          <div class='Slot slotloc28 slotimage'></div> 
-          <div class='Slot slotloc29 slotimage'></div> 
+          <div class='Slot slotloc21 slotimage21'></div>
           <div class='Slot slotloc9999 slotimage9999'></div> 
 
 
@@ -136,51 +123,7 @@ function display(type, id, prefix) {
           <!-- END invitem --> 
         </div> 
       </div> 
-    </td> 
-    <td width='300px' align='left'> 
-      <div class='BankOuter'> 
-        <div class='BankTitle'> 
-          <div class='BankTitleLeft'></div> 
-          <div class='BankTitleMid'>{L_HEADER_BANK}</div> 
-          <div class='BankTitleRight'></div> 
-        </div> 
-        <div class='Slot slotloc2000 slotimage'></div> 
-        <div class='Slot slotloc2001 slotimage'></div> 
-        <div class='Slot slotloc2002 slotimage'></div> 
-        <div class='Slot slotloc2003 slotimage'></div> 
-        <div class='Slot slotloc2004 slotimage'></div> 
-        <div class='Slot slotloc2005 slotimage'></div> 
-        <div class='Slot slotloc2006 slotimage'></div> 
-        <div class='Slot slotloc2007 slotimage'></div> 
-        <div class='Slot slotloc2008 slotimage'></div> 
-        <div class='Slot slotloc2009 slotimage'></div> 
-        <div class='Slot slotloc2010 slotimage'></div> 
-        <div class='Slot slotloc2011 slotimage'></div> 
-        <div class='Slot slotloc2012 slotimage'></div> 
-        <div class='Slot slotloc2013 slotimage'></div> 
-        <div class='Slot slotloc2014 slotimage'></div> 
-        <div class='Slot slotloc2015 slotimage'></div> 
-        <div class='Slot slotloc2016 slotimage'></div> 
-        <div class='Slot slotloc2017 slotimage'></div> 
-        <div class='Slot slotloc2018 slotimage'></div> 
-        <div class='Slot slotloc2019 slotimage'></div> 
-        <div class='Slot slotloc2020 slotimage'></div> 
-        <div class='Slot slotloc2021 slotimage'></div> 
-        <div class='Slot slotloc2022 slotimage'></div> 
-        <div class='Slot slotloc2023 slotimage'></div> 
-
-        <!-- BEGIN bankitem --> 
-        <div onclick="display(0, {bankitem.SLOT}, 'slot'); if ({bankitem.ISBAG}) display(0, {bankitem.SLOT}, 'bag');" class='Slot slotloc{bankitem.SLOT}' style='background-image: url(images/items/item_{bankitem.ICON}.png);'></div> 
-        <!-- END bankitem --> 
-        
-
-        <div class='Coin' style='top: 200px;left: 6px;'><table class='StatTable'><tr><td align='left'><img src='images/pp.gif'></td><td align='center' width='100%'>{BPP}</td></tr></table></div> 
-        <div class='Coin' style='top: 228px;left: 6px;'><table class='StatTable'><tr><td align='left'><img src='images/gp.gif'></td><td align='center' width='100%'>{BGP}</td></tr></table></div> 
-        <div class='Coin' style='top: 256px;left: 6px;'><table class='StatTable'><tr><td align='left'><img src='images/sp.gif'></td><td align='center' width='100%'>{BSP}</td></tr></table></div> 
-        <div class='Coin' style='top: 284px;left: 6px;'><table class='StatTable'><tr><td align='left'><img src='images/cp.gif'></td><td align='center' width='100%'>{BCP}</td></tr></table></div> 
-
-      </div> 
-    </td> 
+    </td>
   </tr> 
   <tr> 
     <td colspan='3' align='center'> 
