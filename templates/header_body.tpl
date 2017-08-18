@@ -21,6 +21,7 @@
     <a style='font-family:arial;font-size:7pt;text-decoration:none;font-weight;none;color:#FFFFFF;' href='index.php'>{L_HOME}</a> &nbsp;|&nbsp;
     <a style='font-family:arial;font-size:7pt;text-decoration:none;font-weight;none;color:#FFFFFF;' href='bazaar.php'>{L_BAZAAR}</a> &nbsp;|&nbsp;
     <a style='font-family:arial;font-size:7pt;text-decoration:none;font-weight;none;color:#FFFFFF;' href='settings.php'>{L_SETTINGS}</a> &nbsp;|&nbsp;
+    <a style='font-family:arial;font-size:7pt;text-decoration:none;font-weight;none;color:#FFFFFF;' href='http://p2002.com'>P2002 Home</a>
   </div>
 </div></div>
 <div class='body'>
