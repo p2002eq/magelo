@@ -84,11 +84,7 @@ function display(type, id, prefix) {
                 <!-- <td>{POISON}<br>{MAGIC}<br>{DISEASE}<br>{FIRE}<br>{COLD}</td> -->
                 <td>{POISON} </font><br>{MAGIC} <br>{DISEASE} <br>{FIRE} <br>{COLD} </td>
               </tr> 
-              <tr><td class='Divider' colspan='2'></td></tr> 
-              <tr> 
-                <td>{L_WEIGHT}</td> 
-                <td nowrap>{WEIGHT} / {STR}</td> 
-              </tr> 
+              <tr><td class='Divider' colspan='2'></td></tr>
             </table> 
           </div> 
 
