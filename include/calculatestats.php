@@ -440,7 +440,7 @@ function GetMaxAC($agility, $level, $defense, $class, $iac, $race) {
 	$displayed += (($avoidance+$mitigation)*1000)/847;	//natural AC
 	
 	//Iksar AC, untested
-	/*if ($race == 128) {
+	/if ($race == 128) {
 		$displayed += 12;
 		$iksarlevel = $level;
 		$iksarlevel -= 10;
@@ -448,7 +448,7 @@ function GetMaxAC($agility, $level, $defense, $class, $iac, $race) {
 			$iksarlevel = 25;
 		if ($iksarlevel > 0)
 			$displayed += $iksarlevel * 12 / 10;
-	}*/
+	}
 	
 	//spell AC bonuses are added directly to natural total
 
