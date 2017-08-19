@@ -442,7 +442,7 @@ function GetMaxAC($agility, $level, $defense, $class, $iac, $race) {
 	//Iksar AC, untested
 	if ($race == 128) {
 		$displayed += 12;
-		$iksarlevel = $evel;
+		$iksarlevel = $level;
 		$iksarlevel -= 10;
 		if ($iksarlevel > 25)
 			$iksarlevel = 25;
