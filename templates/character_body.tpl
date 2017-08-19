@@ -70,19 +70,19 @@ function display(type, id, prefix) {
               <tr> 
                 <td>{L_STR}<br>{L_STA}<br>{L_AGI}<br>{L_DEX}</td> 
                 <!-- <td width='100%'>{STR}<br>{STA}<br>{AGI}<br>{DEX}</td> -->
-                <td width='100%'><font color='#00FF00'>{STR} </font><br>{STA} </font><br>{AGI} </font><br>{DEX} </font></font></td>
+                <td width='100%'>{STR} <br>{STA} <br>{AGI} <br>{DEX} </td>
               </tr> 
               <tr><td class='Divider' colspan='2'></td></tr> 
               <tr> 
                 <td>{L_WIS}<br>{L_INT}<br>{L_CHA}</td> 
                 <!-- <td width='100%'>{WIS}<br>{INT}<br>{CHA}</td> -->
-                <td width='100%'><font color='#00FF00'>{WIS} </font><br>{INT} </font><br>{CHA} </font></font></td>
+                <td width='100%'>{WIS}<br>{INT}<br>{CHA}</td>
               </tr> 
               <tr><td class='Divider' colspan='2'></td></tr> 
               <tr> 
                 <td>{L_POISON}<br>{L_MAGIC}<br>{L_DISEASE}<br>{L_FIRE}<br>{L_COLD}</td> 
                 <!-- <td>{POISON}<br>{MAGIC}<br>{DISEASE}<br>{FIRE}<br>{COLD}</td> -->
-                <td><font color='#00FF00'>{POISON} </font><br>{MAGIC} </font><br>{DISEASE} </font><br>{FIRE} </font><br>{COLD} </font></font></td>
+                <td>{POISON} </font><br>{MAGIC} <br>{DISEASE} <br>{FIRE} <br>{COLD} </td>
               </tr> 
               <tr><td class='Divider' colspan='2'></td></tr> 
               <tr> 
