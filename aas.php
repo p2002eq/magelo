@@ -125,7 +125,7 @@ $aatabs[3] = $language['AAS_TAB_3'];
 //$aatabs[5] = $language['AAS_TAB_5'];
 
 //GET THIS CHARS SPENT AA
-$classbits = array(0,2,4,8,16,32,64,128,256,512,1024,2048,4096,8192,16384,32768,1);
+$classbits = array(0,2,4,8,16,32,64,128,256,512,1024,2048,4096,8192,16384);
 $classbit = $classbits[$char->GetValue('class')];
 $character_aas = $char->GetTable("character_alternate_abilities");  
 
