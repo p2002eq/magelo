@@ -90,8 +90,7 @@ function display(type, id, prefix) {
 
           <div class='InventoryMonogram'><img src='images/monograms/{CLASS_NUM}.gif'></div>
 
-          <div class='Slot slotloc0 slotimage0'></div> 
-          <div class='Slot slotloc1 slotimage1'></div> 
+          <div class='Slot slotloc1 slotimage1'></div>
           <div class='Slot slotloc2 slotimage2'></div> 
           <div class='Slot slotloc3 slotimage3'></div> 
           <div class='Slot slotloc4 slotimage4'></div> 
@@ -112,8 +111,6 @@ function display(type, id, prefix) {
           <div class='Slot slotloc19 slotimage19'></div> 
           <div class='Slot slotloc20 slotimage20'></div> 
           <div class='Slot slotloc21 slotimage21'></div>
-          <div class='Slot slotloc9999 slotimage9999'></div> 
-
 
           <!-- BEGIN invitem --> 
           <div onclick="display(0, {invitem.SLOT}, 'slot');if ({invitem.ISBAG}) display(0, {invitem.SLOT}, 'bag');" class='Slot slotloc{invitem.SLOT}' style='background-image: url(images/items/item_{invitem.ICON}.png);'></div> 
