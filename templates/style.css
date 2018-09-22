@@ -157,6 +157,12 @@ INPUT.search {
   margin: 0px;
 }
 
+INPUT.FreeButton {
+  font-family:arial;
+  color: #FFFFFF;
+  font-size: 9pt;
+}
+
 /* the byline in the footer*/
 .Footer {
   font-family:		georgia;
