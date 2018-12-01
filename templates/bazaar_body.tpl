@@ -65,7 +65,7 @@ function display(type, id, prefix) {
                   <input class='Bazaar' name='pricemax' value='{PRICE_MAX}'><br>
                   <br>
                   <center>  
-                    <div class='FreeButton' onclick="document.bazaar.submit();">{L_SEARCH}</div>
+                    <input type='submit' class='FreeButton' value='{L_SEARCH}'>
                   </center>
                 </form>
               </td></tr>
